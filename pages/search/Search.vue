@@ -69,14 +69,14 @@
       >
         <DashboardCard title="Digitální zpěvník">
           <BasicClickable
-            href="https://play.google.com/store/apps/details?id=cce.evangelicky_zpevnik"
+            href="#"
             class="list-item"
           >
             <BasicIcon name="android" class="list-icon" />
             <span>Aplikace pro Android</span>
           </BasicClickable>
           <BasicClickable
-            href="https://apps.apple.com/us/app/evangelick%C3%BD-zp%C4%9Bvn%C3%ADk/id6502984934"
+            href="#"
             class="list-item"
           >
             <BasicIcon name="ios" class="list-icon" />
@@ -103,19 +103,19 @@
             class="list-item"
           >
             <BasicIcon name="book_2" class="list-icon" />
-            <span>Koupit zpěvník</span>
+            <span>Koupit kancionál</span>
           </BasicClickable>
           <BasicClickable to="/materialy" class="list-item">
             <BasicIcon name="download" class="list-icon" />
             <span>Materiály ke stažení</span>
           </BasicClickable>
-          <BasicClickable
+          <!-- <BasicClickable
             to="https://soundcloud.com/ecirkev/sets/nov-evangelick-zp-vn-k-2021"
             class="list-item"
           >
             <BasicIcon name="headphones" class="list-icon" />
             <span>Nahrávky písní</span>
-          </BasicClickable>
+          </BasicClickable> -->
         </DashboardCard>
       </div>
       <div v-show="!init">
