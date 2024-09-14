@@ -1,8 +1,6 @@
-# Webová aplikace [evangelickyzpevnik.cz](https://www.evangelickyzpevnik.cz/)
+# Webová aplikace [evangelickykancional.cz](https://www.evangelickykancional.cz/)
 
 > Digitální evangelický zpěvník je společným projektem [Českobratrské církve evangelické](https://e-cirkev.cz/) a týmu vývojářů z komunity [Glow Space](https://glowspace.cz/).
-
-Logo ČCE je jejím duševním vlastnictvím a nevztahuje se na něj open-source licence, pod kterou je zdrojový kód aplikace zveřejněný.
 
 ## Prostředí pro vývoj
 

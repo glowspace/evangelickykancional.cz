@@ -26,7 +26,7 @@
         <div class="icon-wrapper" :class="{ active: $route.name == 'about' }">
           <BasicIcon name="info" />
         </div>
-        <p class="label">O zpěvníku</p>
+        <p class="label">O projektu</p>
       </BasicClickable>
       <BasicClickable to="/materialy" class="link group">
         <div class="icon-wrapper" :class="{ active: $route.name == 'downloads' }">

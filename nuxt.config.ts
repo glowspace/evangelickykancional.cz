@@ -6,8 +6,8 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
   runtimeConfig: {
     public: {
-      siteName: 'Evangelický zpěvník',
-      itunesId: '1475375453',
+      siteName: 'Evangelický kancionál',
+      // itunesId: '1475375453',
       siteUrl:
         process.env.APP_URL ||
         (process.env.VERCEL_URL

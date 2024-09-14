@@ -1,7 +1,7 @@
 <template>
   <div class="logo">
-    <img src="/img/logo.svg" alt="logo" />
-    <h1>Evangelický zpěvník</h1>
+    <!-- <img src="/img/logo.svg" alt="logo" /> -->
+    <h1>Evangelický kancionál</h1>
   </div>
 </template>
 

@@ -92,7 +92,7 @@
 
     <!-- <div class="p-1 mb-3 mt-n2">
       <div class="px-4 py-2 inline-block">
-        Evangelický zpěvník <img src="/img/logo.svg" width="20px" />
+        Evangelický kancionál <img src="/img/logo.svg" width="20px" />
         {{ new Date().getFullYear() }}
       </div>
       <div class="float-right">
@@ -249,7 +249,7 @@ export default {
       let str = 'Písně i ';
       let type = this.author && this.author.type ? this.author.type : 0;
       str += this.thisStrings[type];
-      str += ' najdete v Evangelickém zpěvníku.';
+      str += ' najdete v Evangelickém kancionálu.';
       return str;
     },
   },
