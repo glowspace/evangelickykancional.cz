@@ -1,6 +1,6 @@
 # Webová aplikace [evangelickykancional.cz](https://www.evangelickykancional.cz/)
 
-> Digitální evangelický zpěvník je společným projektem [Českobratrské církve evangelické](https://e-cirkev.cz/) a týmu vývojářů z komunity [Glow Space](https://glowspace.cz/).
+> Digitální evangelický zpěvník je společným projektem (...) a týmu vývojářů z komunity [Glow Space](https://glowspace.cz/).
 
 ## Prostředí pro vývoj
 
