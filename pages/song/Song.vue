@@ -352,7 +352,7 @@ span.song-part-tag {
     justify-content: flex-start;
     transition: 100ms;
     margin-bottom: -0.4em;
-    color: #1d6dab;
+    @apply text-primary-800;
   }
 
   &-base {
