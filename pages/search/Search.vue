@@ -48,7 +48,7 @@
       </StickyContainer>
       <div class="custom-container" v-if="init">
         <InitFilters
-          v-if="!$config.public.isEvangelicalSongbook"
+          v-if="!$config.public.singleSongbook"
           v-model="selected_tags"
           @update:modelValue="init = false"
         ></InitFilters>

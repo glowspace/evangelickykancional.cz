@@ -174,9 +174,7 @@ export default {
   components: { ScrollTrigger, SLItem },
 
   data() {
-    const default_preferred_songbook = this.$config.public.isEvangelicalSongbook
-      ? '58'
-      : null;
+    const default_preferred_songbook = this.$config.public.singleSongbook;
 
     return {
       page: 1,
@@ -206,7 +204,7 @@ export default {
           this.selectedTags
         ),
         filterLanguages: this.selectedLanguages,
-        filterSongbooks: this.selectedSongbooks,
+        filterSongbooks: this.$config.public.singleSongbook ? {[this.$config.public.singleSongbook]: true} : this.selectedSongbooks,
         sortType: [
           'RANDOM',
           'NAME',

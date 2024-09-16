@@ -205,7 +205,7 @@ export default {
         (this.song_lyric
           ? getFullName(
               this.song_lyric,
-              this.$config.public.isEvangelicalSongbook
+              this.$config.public.singleSongbook
             )
           : 'Píseň') +
         this.$config.public.titleSeparator +
@@ -251,17 +251,17 @@ export default {
   computed: {
     songTitle() {
       return this.song_lyric
-        ? String(
-            this.$config.public.isEvangelicalSongbook
-              ? this.ezNumber
-              : this.song_lyric?.song_number
-          )
+        ? String(this.songNumber)
         : 'načítám…';
     },
 
-    ezNumber() {
+    songNumber() {
+      if (!this.$config.public.singleSongbook) {
+        return this.song_lyric?.song_number;
+      }
+
       return this.song_lyric.songbook_records.find(
-        (record) => record.pivot.songbook.id == 58
+        (record) => record.pivot.songbook.id == this.$config.public.singleSongbook
       )?.pivot.number;
     },
   },

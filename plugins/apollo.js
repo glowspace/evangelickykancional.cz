@@ -7,8 +7,10 @@ import destr from 'destr'
 
 export default defineNuxtPlugin(nuxtApp => {
   const cache = new InMemoryCache()
-  const { siteUrl, apiPath, isEvangelicalSongbook } = useRuntimeConfig()?.public
+  const { siteUrl, apiPath, singleSongbook } = useRuntimeConfig()?.public
   const headers = {};
+
+  const isEvangelicalSongbook = singleSongbook == 58;
 
   if (isEvangelicalSongbook) {
     headers['Filter-Content'] = 'ez';
