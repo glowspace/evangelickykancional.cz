@@ -1,14 +1,13 @@
 <template>
   <div class="top-bar-wrapper">
     <div class="top-bar custom-container">
-      <!-- <BasicButton icon-name="arrow_back" icon-only @click="emit('back')" /> -->
-      <!-- <BasicButton
-        icon-type="img"
+      <BasicButton icon-name="arrow_back" icon-only @click="emit('back')" />
+      <BasicButton
+        icon-type="img" 
         icon-name="logo.svg"
         icon-only
         to="/"
-      /> -->
-      <p>#logo</p>
+      />
       <component
         :is="isH1 ? 'h1' : 'h2'"
         class="flex flex-grow justify-start text-[1.375rem] leading-7"

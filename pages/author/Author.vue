@@ -74,7 +74,7 @@
         />
         <AuthorSongsList
           heading-text="Překlady"
-          heading-class="text-greendark"
+          heading-class="text-primary"
           v-if="author.songs_translations.length"
           :songs="author.songs_translations"
         />
