@@ -2,34 +2,25 @@
   <TopBar title="O evangelickém kancionálu" is-h1 @back="navigateTo('/')" />
   <div class="custom-container">
     <div class="cont basic-content">
-      <h2>Novinky</h2>
-
-      <h3>Lorem ipsum</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-      </p>
-
       <h2>O projektu</h2>
 
-      <p>
+      <!-- <p>
         Digitální evangelický kancionál je společným projektem
         (...)
         a&nbsp;týmu vývojářů z&nbsp;komunity
         <a href="https://glowspace.cz">Glow Space</a>.
-      </p>
+      </p> -->
 
-      <p>
-        Tištěný kancionál vydal (...) v&nbsp;roce (...). Tištěný zpěvník
-        si můžete
-        <a href="https://eshop.ecmise.cz/produkt/evangelicky-kancional/"
-          >koupit v&nbsp;e-shopu</a
-        >.
-      </p>
+      Digitální evangelický zpěvník je společným projektem Slezské církve evangelické a. v. a týmu vývojářů z komunity <a href="https://glowspace.cz">Glow Space</a>.
+Tištěný zpěvník vydala v roce 2005 SCEAV ve spolupráci s Luterskou církví evang. a. v. Na zpěvníku pracovala k tomu pověřena komise:
+Jan Cieślar, Jiří Chodura, Zdena Pastuszková, Józef Podola <sup>†</sup>, Roman Raszka, Marek Říčan, Wiesław Szpak, Zuzana Szpaková, Jan Wacławek,
+na dopisování kytarových akordů také Jindřich Kunz<sup>†</sup>. 
+Tištěný zpěvník si můžete koupit zde: <a href="https://eshop.ecmise.cz/produkt/evangelicky-kancional/">Evangelický kancionál - ESHOP ECMISE</a>.
 
       <h2>Kontakt</h2>
 
       <p>
-        <span>John Doe</span> <br />
+        <span>Marek Říčan (<a href="#">mrican@sceav.cz</a>)</span><br />
         <!-- <span class="text-secondary">koordinátor nového zpěvníku</span> <br />
         <a href="tel:+420-608-880-579">+420 608 880 579</a> <br />
         <a href="mailto:zpevnik@e-cirkev.cz">zpevnik@e-cirkev.cz</a> -->
@@ -47,6 +38,7 @@
           { name: 'Patrik Dobiáš', role: 'vývoj mobilní aplikace' },
           { name: 'Miroslav Šerý', role: 'vývoj webu' },
           { name: 'Jana Stuchlíková', role: 'redakce' },
+          { name: 'Lukáš Mocek', role: 'redakce' },
         ]"
       />
     </div>
